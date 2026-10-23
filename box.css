@@ -1,0 +1,9 @@
+
+.sample {
+    width: 250px;
+    height: 100px;
+    padding: 10px;
+    border: 5px solid gray;
+    margin: 10px;
+    background-color: #eaf2f8;
+}

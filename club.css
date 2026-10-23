@@ -1,0 +1,135 @@
+
+/* General Styling */
+body {
+    font-family: Arial, sans-serif;
+    color: #222;
+    line-height: 1.6;
+}
+
+/* Header */
+header {
+    background-color: #eaf2f8;
+    text-align: center;
+    padding: 20px;
+}
+
+/* Main Container */
+.container {
+    width: 80%;
+    max-width: 900px;
+    margin: 0 auto;
+}
+
+/* Grouped Selector */
+h1, h2 {
+    color: #16324f;
+}
+
+/* Navigation */
+.menu {
+    background-color: #f1f1f1;
+    padding: 10px;
+}
+
+/* About Section */
+.club-image {
+    width: 180px;
+    height: auto;
+    float: left;
+    margin: 0 20px 10px 0;
+}
+
+.story {
+    text-align: justify;
+}
+
+.after-float {
+    clear: both;
+}
+
+/* Events Section */
+.event-card {
+    border: 2px solid #16324f;
+    margin: 20px 0;
+    padding: 40px 20px 20px;
+    background-color: #eef4fa;
+}
+
+/* Descendant Selector */
+.marked p {
+    color: #205c40;
+}
+
+/* Join Section */
+.benefits {
+    padding-left: 30px;
+}
+
+/* Footer */
+footer {
+    text-align: center;
+    padding: 20px;
+    background-color: #eaf2f8;
+}
+
+
+/* Part C: Navigation Display */
+
+.menu ul {
+    list-style-type: none;
+    padding: 12px;
+}
+
+.menu li {
+    display: inline;
+    margin-right: 16px;
+}
+
+
+/* Display Experiment */
+
+.tag {
+    display: block;
+}
+
+
+/* Absolute Position */
+
+.event-card {
+    position: relative;
+}
+
+.badge {
+    position: absolute;
+    top: 10px;
+    right: 10px;
+    background-color: #16324f;
+    color: white;
+    padding: 2px 8px;
+}
+
+
+/* Fixed Position */
+
+.back-top {
+    position: fixed;
+    right: 16px;
+    bottom: 16px;
+    background-color: white;
+    border: 1px solid #16324f;
+    padding: 8px;
+}
+
+body {
+    padding-bottom: 70px;
+}
+
+
+/* Sticky Navigation */
+
+.menu {
+    position: sticky;
+    top: 0;
+    z-index: 10;
+    background-color: white;
+}
